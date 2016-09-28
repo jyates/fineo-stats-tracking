@@ -1,0 +1,60 @@
+#!/usr/bin/env ruby
+
+# include the "lib" directory
+File.expand_path(File.join(__dir__, "..", "lib")).tap {|pwd|
+  $LOAD_PATH.unshift(pwd) unless $LOAD_PATH.include?(pwd)
+}
+
+MAX_DEVIATION_PERCENT = 10
+SKIP_VALIDATION_FIELDS = ["variance", "standard_deviation"]
+
+require 'parsing'
+require 'stats_helper'
+include Parsing
+include StatsHelper
+
+options = parse(ARGV)
+
+# update the stats for each file
+raise "No statistics files specified!" if options.files.empty?
+options.files.each{|file|
+  name = File.basename(file).gsub(".latency", "")
+  value = File.read(file).to_i
+  set_stats(options.stats, options.number, name, value)
+}
+
+# Compare the old and new statistics
+previous = JSON.parse(File.read(options.file))
+current = options.stats
+
+errors = []
+previous.each{|name, stats|
+  current_stats = current[name]
+  puts "#{name}"
+  stats.each{|key, value|
+    next if key == "data"
+    to_val = current_stats[key]
+    diff = to_val - value
+    percent = ((diff/to_val) * 100).round(2)
+    diff = "#{diff}"
+    diff.prepend "+" unless diff.start_with? "-"
+    puts "  #{key.capitalize} - #{to_val} [#{diff} - #{percent}%]" if options.verbose
+    # skip validation for some fields
+    next if SKIP_VALIDATION_FIELDS.include? key
+    errors << "[#{name}] #{key} varied by more than #{MAX_DEVIATION_PERCENT}% - #{to_val}/#{value} (#{percent}% difference)" if percent > MAX_DEVIATION_PERCENT
+  }
+}
+
+unless errors.empty?
+  if options.fail_on_err
+    puts errors
+    abort "Statistics are outside acceptable bounds!"
+  else
+    File.open(options.err, "w"){|file|
+      file.puts errors
+    }
+  end
+end
+
+# write out the new statistics
+File.write(options.file, JSON.pretty_generate(current))
