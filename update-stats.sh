@@ -19,4 +19,4 @@ fi
 $stats -v --stats $file --build $build_number $files $FAIL
 
 # add the file for upload
-git add data/$file
+git add $file
