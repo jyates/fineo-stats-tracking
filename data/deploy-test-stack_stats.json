@@ -3,48 +3,54 @@
     "data": {
       "51": 118000,
       "52": 120000,
-      "55": 119000
+      "55": 119000,
+      "56": 226000,
+      "59": 120000
     },
-    "mean": 119000.0,
-    "median": 119000.0,
-    "variance": 666666.6666666666,
-    "standard_deviation": 816.496580927726,
-    "percentile_50": 119000.0,
-    "percentile_75": 119500.0,
-    "percentile_90": 119800.0,
-    "percentile_95": 119900.0,
-    "percentile_99": 119980.0
+    "mean": 140600.0,
+    "median": 120000.0,
+    "variance": 1823840000.0,
+    "standard_deviation": 42706.43979542195,
+    "percentile_50": 120000.0,
+    "percentile_75": 120000.0,
+    "percentile_90": 183600.0,
+    "percentile_95": 204800.0,
+    "percentile_99": 221760.0
   },
   "stream-seq.read": {
     "data": {
       "51": 10000,
       "52": 12000,
-      "55": 17000
+      "55": 17000,
+      "56": 9000,
+      "59": 9000
     },
-    "mean": 13000.0,
-    "median": 12000.0,
-    "variance": 8666666.666666666,
-    "standard_deviation": 2943.920288775949,
-    "percentile_50": 12000.0,
-    "percentile_75": 14500.0,
-    "percentile_90": 16000.0,
-    "percentile_95": 16500.0,
-    "percentile_99": 16900.0
+    "mean": 11400.0,
+    "median": 10000.0,
+    "variance": 9040000.0,
+    "standard_deviation": 3006.6592756745817,
+    "percentile_50": 10000.0,
+    "percentile_75": 12000.0,
+    "percentile_90": 15000.0,
+    "percentile_95": 16000.0,
+    "percentile_99": 16800.0
   },
   "stream.read": {
     "data": {
       "51": 11000,
       "52": 50000,
-      "55": 13000
+      "55": 13000,
+      "56": 14000,
+      "59": 12000
     },
-    "mean": 24666.666666666668,
+    "mean": 20000.0,
     "median": 13000.0,
-    "variance": 321555555.5555555,
-    "standard_deviation": 17931.97020841702,
+    "variance": 226000000.0,
+    "standard_deviation": 15033.296378372908,
     "percentile_50": 13000.0,
-    "percentile_75": 31500.0,
-    "percentile_90": 42600.0,
-    "percentile_95": 46300.0,
-    "percentile_99": 49260.0
+    "percentile_75": 14000.0,
+    "percentile_90": 35600.0,
+    "percentile_95": 42799.99999999999,
+    "percentile_99": 48560.0
   }
 }
