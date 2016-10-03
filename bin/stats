@@ -41,7 +41,7 @@ previous.each{|name, stats|
     puts "  #{key.capitalize} - #{to_val} [#{diff} - #{percent}%]" if options.verbose
     # skip validation for some fields
     next if SKIP_VALIDATION_FIELDS.include? key
-    errors << "[#{name}] #{key} varied by more than #{MAX_DEVIATION_PERCENT}% - #{to_val}/#{value} (#{percent}% difference)" if percent > MAX_DEVIATION_PERCENT
+    errors << "[#{name}] #{key} varied by more than #{MAX_DEVIATION_PERCENT}% - #{to_val}/#{value} (#{percent}% difference)" if percent.abs > MAX_DEVIATION_PERCENT
   }
 }
 
