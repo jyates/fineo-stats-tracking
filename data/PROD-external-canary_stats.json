@@ -9,12 +9,13 @@
       "79": 28000,
       "80": 27000,
       "81": 27000,
-      "82": 32000
+      "82": 32000,
+      "83": 28000
     },
-    "mean": 23555.555555555555,
+    "mean": 24000.0,
     "median": 27000.0,
-    "variance": 83358024.69135803,
-    "standard_deviation": 9130.061592966284,
+    "variance": 76800000.0,
+    "standard_deviation": 8763.560920082658,
     "percentile_50": 27000.0,
     "percentile_75": 28000.0,
     "percentile_90": 32000.0,
@@ -31,17 +32,18 @@
       "79": 113000,
       "80": 112000,
       "81": 113000,
-      "82": 115000
+      "82": 115000,
+      "83": 113000
     },
-    "mean": 90222.22222222222,
-    "median": 112000.0,
-    "variance": 1798617283.9506173,
-    "standard_deviation": 42410.10827562949,
-    "percentile_50": 112000.0,
+    "mean": 92500.0,
+    "median": 112500.0,
+    "variance": 1665450000.0,
+    "standard_deviation": 40809.925263347395,
+    "percentile_50": 112500.0,
     "percentile_75": 113000.0,
-    "percentile_90": 115400.0,
-    "percentile_95": 116200.0,
-    "percentile_99": 116840.0
+    "percentile_90": 115200.0,
+    "percentile_95": 116100.0,
+    "percentile_99": 116820.0
   },
   "canary-stream-batch.write": {
     "data": {
@@ -53,17 +55,18 @@
       "79": 23000,
       "80": 24000,
       "81": 24000,
-      "82": 24000
+      "82": 24000,
+      "83": 24000
     },
-    "mean": 20444.444444444445,
+    "mean": 20800.0,
     "median": 24000.0,
-    "variance": 56246913.58024691,
-    "standard_deviation": 7499.794235860535,
+    "variance": 51760000.0,
+    "standard_deviation": 7194.442299441979,
     "percentile_50": 24000.0,
-    "percentile_75": 25000.0,
-    "percentile_90": 25200.0,
-    "percentile_95": 25600.0,
-    "percentile_99": 25920.0
+    "percentile_75": 24750.0,
+    "percentile_90": 25100.0,
+    "percentile_95": 25550.0,
+    "percentile_99": 25910.0
   },
   "canary-stream-seq.read": {
     "data": {
@@ -75,17 +78,18 @@
       "79": 9000,
       "80": 11000,
       "81": 11000,
-      "82": 15000
+      "82": 15000,
+      "83": 7000
     },
-    "mean": 15777.777777777777,
-    "median": 11000.0,
-    "variance": 216839506.17283946,
-    "standard_deviation": 14725.471339581612,
-    "percentile_50": 11000.0,
-    "percentile_75": 13000.0,
-    "percentile_90": 23400.000000000007,
-    "percentile_95": 40199.999999999985,
-    "percentile_99": 53640.0
+    "mean": 14900.0,
+    "median": 10000.0,
+    "variance": 202090000.0,
+    "standard_deviation": 14215.836239912163,
+    "percentile_50": 10000.0,
+    "percentile_75": 12500.0,
+    "percentile_90": 19199.999999999985,
+    "percentile_95": 38099.999999999956,
+    "percentile_99": 53220.00000000001
   },
   "canary-stream-seq.write": {
     "data": {
@@ -97,17 +101,18 @@
       "79": 7000,
       "80": 7000,
       "81": 7000,
-      "82": 9000
+      "82": 9000,
+      "83": 7000
     },
-    "mean": 6666.666666666667,
+    "mean": 6700.0,
     "median": 7000.0,
-    "variance": 1111111.111111111,
-    "standard_deviation": 1054.0925533894597,
+    "variance": 1010000.0,
+    "standard_deviation": 1004.987562112089,
     "percentile_50": 7000.0,
     "percentile_75": 7000.0,
-    "percentile_90": 7400.0,
-    "percentile_95": 8200.0,
-    "percentile_99": 8840.0
+    "percentile_90": 7199.999999999999,
+    "percentile_95": 8099.999999999998,
+    "percentile_99": 8820.0
   },
   "canary-stream.read": {
     "data": {
@@ -119,16 +124,17 @@
       "79": 11000,
       "80": 12000,
       "81": 11000,
-      "82": 13000
+      "82": 13000,
+      "83": 9000
     },
-    "mean": 10333.333333333334,
+    "mean": 10200.0,
     "median": 10000.0,
-    "variance": 2222222.222222222,
-    "standard_deviation": 1490.7119849998596,
+    "variance": 2160000.0,
+    "standard_deviation": 1469.6938456699068,
     "percentile_50": 10000.0,
     "percentile_75": 11000.0,
-    "percentile_90": 12200.0,
-    "percentile_95": 12600.0,
-    "percentile_99": 12920.0
+    "percentile_90": 12100.0,
+    "percentile_95": 12549.999999999998,
+    "percentile_99": 12910.0
   }
 }
