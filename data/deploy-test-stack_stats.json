@@ -5,17 +5,18 @@
       "52": 120000,
       "55": 119000,
       "56": 226000,
-      "59": 120000
+      "59": 120000,
+      "64": 224000
     },
-    "mean": 140600.0,
+    "mean": 154500.0,
     "median": 120000.0,
-    "variance": 1823840000.0,
-    "standard_deviation": 42706.43979542195,
+    "variance": 2485916666.6666665,
+    "standard_deviation": 49858.967765755704,
     "percentile_50": 120000.0,
-    "percentile_75": 120000.0,
-    "percentile_90": 183600.0,
-    "percentile_95": 204800.0,
-    "percentile_99": 221760.0
+    "percentile_75": 198000.0,
+    "percentile_90": 225000.0,
+    "percentile_95": 225500.0,
+    "percentile_99": 225900.0
   },
   "stream-seq.read": {
     "data": {
@@ -23,14 +24,15 @@
       "52": 12000,
       "55": 17000,
       "56": 9000,
-      "59": 9000
+      "59": 9000,
+      "64": 13000
     },
-    "mean": 11400.0,
-    "median": 10000.0,
-    "variance": 9040000.0,
-    "standard_deviation": 3006.6592756745817,
-    "percentile_50": 10000.0,
-    "percentile_75": 12000.0,
+    "mean": 11666.666666666666,
+    "median": 11000.0,
+    "variance": 7888888.888888888,
+    "standard_deviation": 2808.716591058786,
+    "percentile_50": 11000.0,
+    "percentile_75": 12750.0,
     "percentile_90": 15000.0,
     "percentile_95": 16000.0,
     "percentile_99": 16800.0
@@ -41,16 +43,45 @@
       "52": 50000,
       "55": 13000,
       "56": 14000,
-      "59": 12000
+      "59": 12000,
+      "64": 47000
     },
-    "mean": 20000.0,
-    "median": 13000.0,
-    "variance": 226000000.0,
-    "standard_deviation": 15033.296378372908,
-    "percentile_50": 13000.0,
-    "percentile_75": 14000.0,
-    "percentile_90": 35600.0,
-    "percentile_95": 42799.99999999999,
-    "percentile_99": 48560.0
+    "mean": 24500.0,
+    "median": 13500.0,
+    "variance": 289583333.3333333,
+    "standard_deviation": 17017.148213885113,
+    "percentile_50": 13500.0,
+    "percentile_75": 38750.0,
+    "percentile_90": 48500.0,
+    "percentile_95": 49250.0,
+    "percentile_99": 49850.0
+  },
+  "deploy-test-stack-create-schema": {
+    "data": {
+      "64": 48000
+    },
+    "mean": 48000.0,
+    "median": 48000.0,
+    "variance": 0.0,
+    "standard_deviation": 0.0,
+    "percentile_50": 48000.0,
+    "percentile_75": 48000.0,
+    "percentile_90": 48000.0,
+    "percentile_95": 48000.0,
+    "percentile_99": 48000.0
+  },
+  "deploy-test-stack-read-schema": {
+    "data": {
+      "64": 25000
+    },
+    "mean": 25000.0,
+    "median": 25000.0,
+    "variance": 0.0,
+    "standard_deviation": 0.0,
+    "percentile_50": 25000.0,
+    "percentile_75": 25000.0,
+    "percentile_90": 25000.0,
+    "percentile_95": 25000.0,
+    "percentile_99": 25000.0
   }
 }
