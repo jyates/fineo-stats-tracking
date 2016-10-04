@@ -10,12 +10,13 @@
       "80": 27000,
       "81": 27000,
       "82": 32000,
-      "83": 28000
+      "83": 28000,
+      "84": 6000
     },
-    "mean": 24000.0,
+    "mean": 22363.636363636364,
     "median": 27000.0,
-    "variance": 76800000.0,
-    "standard_deviation": 8763.560920082658,
+    "variance": 96595041.32231405,
+    "standard_deviation": 9828.277637628786,
     "percentile_50": 27000.0,
     "percentile_75": 28000.0,
     "percentile_90": 32000.0,
@@ -33,17 +34,18 @@
       "80": 112000,
       "81": 113000,
       "82": 115000,
-      "83": 113000
+      "83": 113000,
+      "84": 20000
     },
-    "mean": 92500.0,
-    "median": 112500.0,
-    "variance": 1665450000.0,
-    "standard_deviation": 40809.925263347395,
-    "percentile_50": 112500.0,
+    "mean": 85909.09090909091,
+    "median": 112000.0,
+    "variance": 1948446280.9917352,
+    "standard_deviation": 44141.20842242241,
+    "percentile_50": 112000.0,
     "percentile_75": 113000.0,
-    "percentile_90": 115200.0,
-    "percentile_95": 116100.0,
-    "percentile_99": 116820.0
+    "percentile_90": 115000.0,
+    "percentile_95": 116000.0,
+    "percentile_99": 116800.0
   },
   "canary-stream-batch.write": {
     "data": {
@@ -56,17 +58,18 @@
       "80": 24000,
       "81": 24000,
       "82": 24000,
-      "83": 24000
+      "83": 24000,
+      "84": 6000
     },
-    "mean": 20800.0,
+    "mean": 19454.545454545456,
     "median": 24000.0,
-    "variance": 51760000.0,
-    "standard_deviation": 7194.442299441979,
+    "variance": 65157024.793388434,
+    "standard_deviation": 8071.990138335677,
     "percentile_50": 24000.0,
-    "percentile_75": 24750.0,
-    "percentile_90": 25100.0,
-    "percentile_95": 25550.0,
-    "percentile_99": 25910.0
+    "percentile_75": 24500.0,
+    "percentile_90": 25000.0,
+    "percentile_95": 25500.0,
+    "percentile_99": 25900.0
   },
   "canary-stream-seq.read": {
     "data": {
@@ -79,17 +82,18 @@
       "80": 11000,
       "81": 11000,
       "82": 15000,
-      "83": 7000
+      "83": 7000,
+      "84": 9000
     },
-    "mean": 14900.0,
-    "median": 10000.0,
-    "variance": 202090000.0,
-    "standard_deviation": 14215.836239912163,
-    "percentile_50": 10000.0,
-    "percentile_75": 12500.0,
-    "percentile_90": 19199.999999999985,
-    "percentile_95": 38099.999999999956,
-    "percentile_99": 53220.00000000001
+    "mean": 14363.636363636364,
+    "median": 9000.0,
+    "variance": 186595041.322314,
+    "standard_deviation": 13659.979550581838,
+    "percentile_50": 9000.0,
+    "percentile_75": 12000.0,
+    "percentile_90": 15000.0,
+    "percentile_95": 36000.0,
+    "percentile_99": 52800.000000000015
   },
   "canary-stream-seq.write": {
     "data": {
@@ -102,17 +106,18 @@
       "80": 7000,
       "81": 7000,
       "82": 9000,
-      "83": 7000
+      "83": 7000,
+      "84": 6000
     },
-    "mean": 6700.0,
+    "mean": 6636.363636363636,
     "median": 7000.0,
-    "variance": 1010000.0,
-    "standard_deviation": 1004.987562112089,
+    "variance": 958677.6859504132,
+    "standard_deviation": 979.1208740244552,
     "percentile_50": 7000.0,
     "percentile_75": 7000.0,
-    "percentile_90": 7199.999999999999,
-    "percentile_95": 8099.999999999998,
-    "percentile_99": 8820.0
+    "percentile_90": 7000.0,
+    "percentile_95": 8000.0,
+    "percentile_99": 8800.0
   },
   "canary-stream.read": {
     "data": {
@@ -125,16 +130,17 @@
       "80": 12000,
       "81": 11000,
       "82": 13000,
-      "83": 9000
+      "83": 9000,
+      "84": 15000
     },
-    "mean": 10200.0,
+    "mean": 10636.363636363636,
     "median": 10000.0,
-    "variance": 2160000.0,
-    "standard_deviation": 1469.6938456699068,
+    "variance": 3867768.5950413225,
+    "standard_deviation": 1966.664332071267,
     "percentile_50": 10000.0,
-    "percentile_75": 11000.0,
-    "percentile_90": 12100.0,
-    "percentile_95": 12549.999999999998,
-    "percentile_99": 12910.0
+    "percentile_75": 11500.0,
+    "percentile_90": 13000.0,
+    "percentile_95": 14000.0,
+    "percentile_99": 14800.0
   }
 }
