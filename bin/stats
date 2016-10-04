@@ -31,15 +31,13 @@ errors = []
 previous.each{|name, stats|
   current_stats = current[name]
   actual_value = current_stats["data"][options.number]
-  puts "\n#{name}: #{actual_value}"
+  puts "\n#{name}: #{actual_value/1000} sec"
   stats.each{|key, value|
     next if key == "data"
     to_val = current_stats[key]
     diff = to_val - value
     percent = ((diff/to_val) * 100).round(2)
-    diff = "#{diff}"
-    diff.prepend "+" unless diff.start_with? "-"
-    printf("%-25s  %-10.5f [%.3f - %.2f%%]\n", key.capitalize, to_val, diff, percent) if options.verbose
+    printf("%-25s  %-10.5f [%+.3fms - %.2f%%]\n", key.capitalize, to_val/1000, diff/1000, percent) if options.verbose
     # skip validation for some fields
     next if SKIP_VALIDATION_FIELDS.include? key
     errors << "[#{name}] #{key} varied by more than #{MAX_DEVIATION_PERCENT}% - #{to_val}/#{value} (#{percent}% difference)" if percent.abs > MAX_DEVIATION_PERCENT
