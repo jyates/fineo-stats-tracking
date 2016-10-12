@@ -8,17 +8,18 @@
       "59": 120000,
       "64": 224000,
       "65": 116000,
-      "69": 114000
+      "69": 114000,
+      "72": 120000
     },
-    "mean": 144625.0,
-    "median": 119500.0,
-    "variance": 2157234375.0,
-    "standard_deviation": 46446.03723677619,
-    "percentile_50": 119500.0,
-    "percentile_75": 146000.0,
-    "percentile_90": 224600.0,
-    "percentile_95": 225300.0,
-    "percentile_99": 225860.0
+    "mean": 141888.88888888888,
+    "median": 120000.0,
+    "variance": 1977432098.7654321,
+    "standard_deviation": 44468.32691664295,
+    "percentile_50": 120000.0,
+    "percentile_75": 120000.0,
+    "percentile_90": 224400.0,
+    "percentile_95": 225200.0,
+    "percentile_99": 225840.0
   },
   "stream-seq.read": {
     "data": {
@@ -29,17 +30,18 @@
       "59": 9000,
       "64": 13000,
       "65": 10000,
-      "69": 9000
+      "69": 9000,
+      "72": 8000
     },
-    "mean": 11125.0,
+    "mean": 10777.777777777777,
     "median": 10000.0,
-    "variance": 6859375.0,
-    "standard_deviation": 2619.0408549696203,
+    "variance": 7061728.395061729,
+    "standard_deviation": 2657.3912762447553,
     "percentile_50": 10000.0,
-    "percentile_75": 12250.0,
-    "percentile_90": 14200.0,
-    "percentile_95": 15599.999999999998,
-    "percentile_99": 16720.0
+    "percentile_75": 12000.0,
+    "percentile_90": 13800.0,
+    "percentile_95": 15399.999999999998,
+    "percentile_99": 16680.0
   },
   "stream.read": {
     "data": {
@@ -50,48 +52,79 @@
       "59": 12000,
       "64": 47000,
       "65": 8000,
-      "69": 9000
+      "69": 9000,
+      "72": 8000
     },
-    "mean": 20500.0,
-    "median": 12500.0,
-    "variance": 265250000.0,
-    "standard_deviation": 16286.497474902331,
-    "percentile_50": 12500.0,
-    "percentile_75": 22250.0,
-    "percentile_90": 47900.0,
-    "percentile_95": 48950.0,
-    "percentile_99": 49790.0
+    "mean": 19111.11111111111,
+    "median": 12000.0,
+    "variance": 251209876.54320988,
+    "standard_deviation": 15849.601778694941,
+    "percentile_50": 12000.0,
+    "percentile_75": 14000.0,
+    "percentile_90": 47600.0,
+    "percentile_95": 48800.0,
+    "percentile_99": 49760.0
   },
   "deploy-test-stack-create-schema": {
     "data": {
       "64": 48000,
       "65": 48000,
-      "69": 54000
+      "69": 54000,
+      "72": 15000
     },
-    "mean": 50000.0,
+    "mean": 41250.0,
     "median": 48000.0,
-    "variance": 8000000.0,
-    "standard_deviation": 2828.42712474619,
+    "variance": 235687500.0,
+    "standard_deviation": 15352.11711784404,
     "percentile_50": 48000.0,
-    "percentile_75": 51000.0,
-    "percentile_90": 52800.0,
-    "percentile_95": 53400.0,
-    "percentile_99": 53880.0
+    "percentile_75": 49500.0,
+    "percentile_90": 52200.0,
+    "percentile_95": 53100.0,
+    "percentile_99": 53820.0
   },
   "deploy-test-stack-read-schema": {
     "data": {
       "64": 25000,
       "65": 10000,
-      "69": 29000
+      "69": 29000,
+      "72": 26000
     },
-    "mean": 21333.333333333332,
-    "median": 25000.0,
-    "variance": 66888888.88888889,
-    "standard_deviation": 8178.562764256864,
-    "percentile_50": 25000.0,
+    "mean": 22500.0,
+    "median": 25500.0,
+    "variance": 54250000.0,
+    "standard_deviation": 7365.459931328118,
+    "percentile_50": 25500.0,
+    "percentile_75": 26750.0,
+    "percentile_90": 28100.0,
+    "percentile_95": 28550.0,
+    "percentile_99": 28910.0
+  },
+  "deploy-test-stack-read-schema_2": {
+    "data": {
+      "72": 33000
+    },
+    "mean": 33000.0,
+    "median": 33000.0,
+    "variance": 0.0,
+    "standard_deviation": 0.0,
+    "percentile_50": 33000.0,
+    "percentile_75": 33000.0,
+    "percentile_90": 33000.0,
+    "percentile_95": 33000.0,
+    "percentile_99": 33000.0
+  },
+  "deploy-test-stack-update-schema-field-alias": {
+    "data": {
+      "72": 27000
+    },
+    "mean": 27000.0,
+    "median": 27000.0,
+    "variance": 0.0,
+    "standard_deviation": 0.0,
+    "percentile_50": 27000.0,
     "percentile_75": 27000.0,
-    "percentile_90": 28200.0,
-    "percentile_95": 28600.0,
-    "percentile_99": 28920.0
+    "percentile_90": 27000.0,
+    "percentile_95": 27000.0,
+    "percentile_99": 27000.0
   }
 }
