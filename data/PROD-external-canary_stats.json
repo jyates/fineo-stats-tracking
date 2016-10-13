@@ -99,17 +99,18 @@
       "214": 6000,
       "215": 9000,
       "216": 6000,
-      "217": 5000
+      "217": 5000,
+      "218": 6000
     },
-    "mean": 19606.060606060608,
+    "mean": 19470.0,
     "median": 27000.0,
-    "variance": 123531680.44077137,
-    "standard_deviation": 11114.480664465225,
+    "variance": 124129100.0,
+    "standard_deviation": 11141.323978773797,
     "percentile_50": 27000.0,
     "percentile_75": 28000.0,
-    "percentile_90": 30200.000000000004,
-    "percentile_95": 31099.999999999993,
-    "percentile_99": 34019.99999999999
+    "percentile_90": 30100.000000000007,
+    "percentile_95": 31049.999999999996,
+    "percentile_99": 34010.00000000001
   },
   "canary-stream-batch.read": {
     "data": {
@@ -211,17 +212,18 @@
       "214": 9000,
       "215": 8000,
       "216": 9000,
-      "217": 8000
+      "217": 8000,
+      "218": 9000
     },
-    "mean": 73575.75757575757,
+    "mean": 72930.0,
     "median": 107000.0,
-    "variance": 2345981634.5270877,
-    "standard_deviation": 48435.334566069505,
+    "variance": 2363805100.0,
+    "standard_deviation": 48618.97880457795,
     "percentile_50": 107000.0,
     "percentile_75": 110000.0,
-    "percentile_90": 114200.0,
+    "percentile_90": 114100.00000000001,
     "percentile_95": 117000.0,
-    "percentile_99": 118059.99999999999
+    "percentile_99": 118030.00000000001
   },
   "canary-stream-batch.write": {
     "data": {
@@ -323,17 +325,18 @@
       "214": 9000,
       "215": 7000,
       "216": 5000,
-      "217": 5000
+      "217": 5000,
+      "218": 5000
     },
-    "mean": 16565.656565656565,
+    "mean": 16450.0,
     "median": 22000.0,
-    "variance": 84548719.51841648,
-    "standard_deviation": 9195.037766013606,
+    "variance": 85027500.0,
+    "standard_deviation": 9221.03573358221,
     "percentile_50": 22000.0,
     "percentile_75": 25000.0,
     "percentile_90": 26000.0,
     "percentile_95": 27000.0,
-    "percentile_99": 29059.99999999999
+    "percentile_99": 29030.000000000015
   },
   "canary-stream-seq.read": {
     "data": {
@@ -435,17 +438,18 @@
       "214": 8000,
       "215": 8000,
       "216": 8000,
-      "217": 8000
+      "217": 8000,
+      "218": 7000
     },
-    "mean": 9585.858585858587,
+    "mean": 9560.0,
     "median": 9000.0,
-    "variance": 26525456.586062666,
-    "standard_deviation": 5150.287039191376,
+    "variance": 26326400.0,
+    "standard_deviation": 5130.925842379716,
     "percentile_50": 9000.0,
-    "percentile_75": 9500.0,
+    "percentile_75": 9250.0,
     "percentile_90": 12000.0,
     "percentile_95": 14000.0,
-    "percentile_99": 15839.999999999833
+    "percentile_99": 15420.000000000215
   },
   "canary-stream-seq.write": {
     "data": {
@@ -547,17 +551,18 @@
       "214": 6000,
       "215": 5000,
       "216": 5000,
-      "217": 5000
+      "217": 5000,
+      "218": 5000
     },
-    "mean": 6363.636363636364,
+    "mean": 6350.0,
     "median": 6000.0,
-    "variance": 1544536.2718089994,
-    "standard_deviation": 1242.7937366309018,
+    "variance": 1547500.0,
+    "standard_deviation": 1243.9855304624728,
     "percentile_50": 6000.0,
     "percentile_75": 7000.0,
     "percentile_90": 8000.0,
-    "percentile_95": 8099.9999999999945,
-    "percentile_99": 9079.999999999984
+    "percentile_95": 8049.999999999997,
+    "percentile_99": 9040.00000000002
   },
   "canary-stream.read": {
     "data": {
@@ -659,17 +664,18 @@
       "214": 7000,
       "215": 7000,
       "216": 8000,
-      "217": 8000
+      "217": 8000,
+      "218": 7000
     },
-    "mean": 9616.161616161617,
+    "mean": 9590.0,
     "median": 9000.0,
-    "variance": 28741556.983981192,
-    "standard_deviation": 5361.115274267211,
+    "variance": 28521900.0,
+    "standard_deviation": 5340.589855062828,
     "percentile_50": 9000.0,
     "percentile_75": 10000.0,
     "percentile_90": 12000.0,
     "percentile_95": 13000.0,
-    "percentile_99": 16879.999999999825
+    "percentile_99": 16440.000000000226
   },
   "canary-read-schema-mgmt": {
     "data": {
@@ -677,16 +683,17 @@
       "214": 6000,
       "215": 10000,
       "216": 5000,
-      "217": 5000
+      "217": 5000,
+      "218": 5000
     },
-    "mean": 9000.0,
-    "median": 6000.0,
-    "variance": 28400000.0,
-    "standard_deviation": 5329.165037789691,
-    "percentile_50": 6000.0,
-    "percentile_75": 10000.0,
-    "percentile_90": 15400.0,
-    "percentile_95": 17200.0,
-    "percentile_99": 18640.0
+    "mean": 8333.333333333334,
+    "median": 5500.0,
+    "variance": 25888888.888888884,
+    "standard_deviation": 5088.112507491249,
+    "percentile_50": 5500.0,
+    "percentile_75": 9000.0,
+    "percentile_90": 14500.0,
+    "percentile_95": 16750.0,
+    "percentile_99": 18550.0
   }
 }
