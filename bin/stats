@@ -32,7 +32,11 @@ errors = []
 previous.each{|name, stats|
   current_stats = current[name]
   actual_value = current_stats["data"][options.number]
-  puts "\n#{name}: #{actual_value/1000} sec"
+  if actual_value.nil?
+    puts "Skipping #{name} because no previous value"
+    next
+  end
+  puts "\n#{name}: #{actual_value / 1000} sec"
   stats.each{|key, value|
     next if key == "data"
     to_val = current_stats[key]
