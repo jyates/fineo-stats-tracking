@@ -3,103 +3,110 @@
     "data": {
       "5": 5000,
       "6": 5000,
-      "7": 27000
+      "7": 27000,
+      "8": 5000
     },
-    "mean": 12333.333333333334,
+    "mean": 10500.0,
     "median": 5000.0,
-    "variance": 107555555.55555557,
-    "standard_deviation": 10370.899457402698,
+    "variance": 90750000.0,
+    "standard_deviation": 9526.279441628825,
     "percentile_50": 5000.0,
-    "percentile_75": 16000.0,
-    "percentile_90": 22600.0,
-    "percentile_95": 24799.999999999996,
-    "percentile_99": 26560.0
+    "percentile_75": 10500.0,
+    "percentile_90": 20400.000000000004,
+    "percentile_95": 23699.999999999993,
+    "percentile_99": 26339.999999999993
   },
   "canary-read-schema-mgmt": {
     "data": {
       "5": 5000,
       "6": 5000,
-      "7": 9000
+      "7": 9000,
+      "8": 4000
     },
-    "mean": 6333.333333333333,
+    "mean": 5750.0,
     "median": 5000.0,
-    "variance": 3555555.555555556,
-    "standard_deviation": 1885.6180831641268,
+    "variance": 3687500.0,
+    "standard_deviation": 1920.286436967152,
     "percentile_50": 5000.0,
-    "percentile_75": 7000.0,
-    "percentile_90": 8200.0,
-    "percentile_95": 8600.0,
-    "percentile_99": 8920.0
+    "percentile_75": 6000.0,
+    "percentile_90": 7800.000000000001,
+    "percentile_95": 8399.999999999998,
+    "percentile_99": 8880.0
   },
   "canary-stream-batch.read": {
     "data": {
       "5": 7000,
       "6": 6000,
-      "7": 102000
+      "7": 102000,
+      "8": 7000
     },
-    "mean": 38333.333333333336,
+    "mean": 30500.0,
     "median": 7000.0,
-    "variance": 2026888888.888889,
-    "standard_deviation": 45020.98276236192,
+    "variance": 1704250000.0,
+    "standard_deviation": 41282.56290493603,
     "percentile_50": 7000.0,
-    "percentile_75": 54500.0,
-    "percentile_90": 83000.0,
-    "percentile_95": 92499.99999999999,
-    "percentile_99": 100100.0
+    "percentile_75": 30750.0,
+    "percentile_90": 73500.00000000001,
+    "percentile_95": 87749.99999999997,
+    "percentile_99": 99149.99999999997
   },
   "canary-stream-batch.write": {
     "data": {
       "5": 4000,
       "6": 5000,
-      "7": 8000
+      "7": 8000,
+      "8": 11000
     },
-    "mean": 5666.666666666667,
-    "median": 5000.0,
-    "variance": 2888888.8888888895,
-    "standard_deviation": 1699.6731711975951,
-    "percentile_50": 5000.0,
-    "percentile_75": 6500.0,
-    "percentile_90": 7400.0,
-    "percentile_95": 7700.0,
-    "percentile_99": 7940.0
+    "mean": 7000.0,
+    "median": 6500.0,
+    "variance": 7500000.0,
+    "standard_deviation": 2738.6127875258308,
+    "percentile_50": 6500.0,
+    "percentile_75": 8750.0,
+    "percentile_90": 10100.0,
+    "percentile_95": 10550.0,
+    "percentile_99": 10910.0
   },
   "canary-stream.read": {
     "data": {
       "5": 5000,
       "6": 7000,
-      "7": 6000
+      "7": 6000,
+      "8": 7000
     },
-    "mean": 6000.0,
-    "median": 6000.0,
-    "variance": 666666.6666666666,
-    "standard_deviation": 816.496580927726,
-    "percentile_50": 6000.0,
-    "percentile_75": 6500.0,
-    "percentile_90": 6800.0,
-    "percentile_95": 6900.0,
-    "percentile_99": 6980.0
+    "mean": 6250.0,
+    "median": 6500.0,
+    "variance": 687500.0,
+    "standard_deviation": 829.15619758885,
+    "percentile_50": 6500.0,
+    "percentile_75": 7000.0,
+    "percentile_90": 7000.0,
+    "percentile_95": 7000.0,
+    "percentile_99": 7000.0
   },
   "canary-stream-seq.read": {
     "data": {
       "5": 7000,
       "6": 6000,
-      "7": 6000
+      "7": 6000,
+      "8": 6000
     },
-    "mean": 6333.333333333333,
+    "mean": 6250.0,
     "median": 6000.0,
-    "variance": 222222.22222222222,
-    "standard_deviation": 471.4045207910317,
+    "variance": 187500.0,
+    "standard_deviation": 433.0127018922193,
     "percentile_50": 6000.0,
-    "percentile_75": 6500.0,
-    "percentile_90": 6800.0,
-    "percentile_95": 6900.0,
-    "percentile_99": 6980.0
+    "percentile_75": 6250.0,
+    "percentile_90": 6700.0,
+    "percentile_95": 6850.0,
+    "percentile_99": 6970.0
   },
   "canary-stream-seq.write": {
     "data": {
       "5": 5000,
       "6": 5000,
-      "7": 5000
+      "7": 5000,
+      "8": 5000
     },
     "mean": 5000.0,
     "median": 5000.0,
