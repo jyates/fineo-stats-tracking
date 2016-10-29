@@ -5,7 +5,7 @@ File.expand_path(File.join(__dir__, "..", "lib")).tap {|pwd|
   $LOAD_PATH.unshift(pwd) unless $LOAD_PATH.include?(pwd)
 }
 
-MIN_DATA_SAMPLES = 20
+MIN_DATA_SAMPLES = 100
 MAX_DEVIATION_PERCENT = 10
 SKIP_VALIDATION_FIELDS = ["variance", "standard_deviation"]
 
