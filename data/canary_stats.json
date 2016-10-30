@@ -40,17 +40,18 @@
       "92": 27000,
       "93": 28000,
       "94": 25000,
-      "95": 5000
+      "95": 5000,
+      "96": 27000
     },
-    "mean": 17850.0,
+    "mean": 18073.170731707316,
     "median": 25000.0,
-    "variance": 158027500.0,
-    "standard_deviation": 12570.898933648301,
+    "variance": 156165377.75133848,
+    "standard_deviation": 12496.614651630196,
     "percentile_50": 25000.0,
     "percentile_75": 27000.0,
     "percentile_90": 29000.0,
-    "percentile_95": 30099.999999999993,
-    "percentile_99": 47859.999999999985
+    "percentile_95": 30000.0,
+    "percentile_99": 47600.00000000004
   },
   "canary-read-schema-mgmt": {
     "data": {
@@ -93,15 +94,16 @@
       "92": 9000,
       "93": 9000,
       "94": 28000,
-      "95": 5000
+      "95": 5000,
+      "96": 9000
     },
-    "mean": 9725.0,
-    "median": 8500.0,
-    "variance": 51699375.0,
-    "standard_deviation": 7190.227743263769,
-    "percentile_50": 8500.0,
-    "percentile_75": 9250.0,
-    "percentile_90": 27100.0,
+    "mean": 9707.317073170732,
+    "median": 9000.0,
+    "variance": 50450922.070196316,
+    "standard_deviation": 7102.881251308959,
+    "percentile_50": 9000.0,
+    "percentile_75": 9000.0,
+    "percentile_90": 27000.0,
     "percentile_95": 28000.0,
     "percentile_99": 28000.0
   },
@@ -146,17 +148,18 @@
       "92": 103000,
       "93": 102000,
       "94": 102000,
-      "95": 8000
+      "95": 8000,
+      "96": 103000
     },
-    "mean": 66450.0,
+    "mean": 67341.46341463414,
     "median": 102000.0,
-    "variance": 2322297500.0,
-    "standard_deviation": 48190.22203725565,
+    "variance": 2297444378.3462234,
+    "standard_deviation": 47931.6636300705,
     "percentile_50": 102000.0,
     "percentile_75": 103000.0,
     "percentile_90": 104000.0,
-    "percentile_95": 114549.99999999997,
-    "percentile_99": 129270.0
+    "percentile_95": 114000.0,
+    "percentile_99": 129200.00000000001
   },
   "canary-stream-batch.write": {
     "data": {
@@ -199,17 +202,18 @@
       "92": 23000,
       "93": 22000,
       "94": 8000,
-      "95": 4000
+      "95": 4000,
+      "96": 8000
     },
-    "mean": 9825.0,
+    "mean": 9780.487804878048,
     "median": 8000.0,
-    "variance": 45644375.0,
-    "standard_deviation": 6756.062092669072,
+    "variance": 44610350.9815586,
+    "standard_deviation": 6679.098066472643,
     "percentile_50": 8000.0,
-    "percentile_75": 10250.0,
+    "percentile_75": 10000.0,
     "percentile_90": 21000.0,
-    "percentile_95": 22049.999999999996,
-    "percentile_99": 27269.999999999996
+    "percentile_95": 22000.0,
+    "percentile_99": 27200.00000000001
   },
   "canary-stream.read": {
     "data": {
@@ -252,17 +256,18 @@
       "92": 7000,
       "93": 6000,
       "94": 7000,
-      "95": 8000
+      "95": 8000,
+      "96": 5000
     },
-    "mean": 7375.0,
+    "mean": 7317.073170731707,
     "median": 7000.0,
-    "variance": 12684375.0,
-    "standard_deviation": 3561.51302117513,
+    "variance": 12509220.701963123,
+    "standard_deviation": 3536.8376697217986,
     "percentile_50": 7000.0,
     "percentile_75": 7000.0,
     "percentile_90": 8000.0,
-    "percentile_95": 9449.999999999975,
-    "percentile_99": 22879.999999999996
+    "percentile_95": 9000.0,
+    "percentile_99": 22800.00000000001
   },
   "canary-stream-seq.read": {
     "data": {
@@ -305,17 +310,18 @@
       "92": 7000,
       "93": 6000,
       "94": 8000,
-      "95": 6000
+      "95": 6000,
+      "96": 7000
     },
-    "mean": 8100.0,
+    "mean": 8073.170731707317,
     "median": 7000.0,
-    "variance": 38340000.0,
-    "standard_deviation": 6191.930232165088,
+    "variance": 37433670.43426537,
+    "standard_deviation": 6118.306173628888,
     "percentile_50": 7000.0,
     "percentile_75": 7000.0,
     "percentile_90": 8000.0,
-    "percentile_95": 10649.999999999964,
-    "percentile_99": 35199.999999999985
+    "percentile_95": 10000.0,
+    "percentile_99": 35000.00000000003
   },
   "canary-stream-seq.write": {
     "data": {
@@ -358,15 +364,16 @@
       "92": 5000,
       "93": 7000,
       "94": 4000,
-      "95": 5000
+      "95": 5000,
+      "96": 5000
     },
-    "mean": 6025.0,
+    "mean": 6000.0,
     "median": 5000.0,
-    "variance": 6474375.0,
-    "standard_deviation": 2544.479318053106,
+    "variance": 6341463.414634147,
+    "standard_deviation": 2518.226243734694,
     "percentile_50": 5000.0,
-    "percentile_75": 6250.0,
-    "percentile_90": 8100.000000000002,
+    "percentile_75": 6000.0,
+    "percentile_90": 8000.0,
     "percentile_95": 14000.0,
     "percentile_99": 14000.0
   }
