@@ -135,17 +135,18 @@
       "79": 32000,
       "82": 48000,
       "83": 33000,
-      "84": 50000
+      "84": 50000,
+      "85": 51000
     },
-    "mean": 42111.11111111111,
+    "mean": 42272.72727272727,
     "median": 48000.0,
-    "variance": 113358024.69135807,
-    "standard_deviation": 10646.972559904438,
+    "variance": 112707438.0165289,
+    "standard_deviation": 10616.375936096503,
     "percentile_50": 48000.0,
     "percentile_75": 51000.0,
     "percentile_90": 53000.0,
     "percentile_95": 54000.0,
-    "percentile_99": 54470.0
+    "percentile_99": 54460.0
   },
   "deploy-test-stack-read-schema": {
     "data": {
@@ -202,16 +203,17 @@
       "79": 27000,
       "82": 25000,
       "83": 26000,
-      "84": 8000
+      "84": 8000,
+      "85": 26000
     },
-    "mean": 18648.14814814815,
+    "mean": 18781.81818181818,
     "median": 25000.0,
-    "variance": 80265089.16323729,
-    "standard_deviation": 8959.07858896423,
+    "variance": 79770578.51239672,
+    "standard_deviation": 8931.437650927017,
     "percentile_50": 25000.0,
     "percentile_75": 26000.0,
     "percentile_90": 27000.0,
-    "percentile_95": 28349.999999999993,
+    "percentile_95": 28299.999999999996,
     "percentile_99": 29000.0
   },
   "deploy-test-stack-read-schema_2": {
@@ -269,17 +271,18 @@
       "79": 32000,
       "82": 31000,
       "83": 13000,
-      "84": 32000
+      "84": 32000,
+      "85": 35000
     },
-    "mean": 24703.703703703704,
+    "mean": 24890.909090909092,
     "median": 31000.0,
-    "variance": 94023319.61591223,
-    "standard_deviation": 9696.562257620595,
+    "variance": 94206280.9917355,
+    "standard_deviation": 9705.992014819274,
     "percentile_50": 31000.0,
     "percentile_75": 33000.0,
     "percentile_90": 34000.0,
-    "percentile_95": 34699.999999999985,
-    "percentile_99": 36470.0
+    "percentile_95": 35300.0,
+    "percentile_99": 36460.0
   },
   "deploy-test-stack-update-schema-field-alias": {
     "data": {
@@ -336,16 +339,17 @@
       "79": 26000,
       "82": 26000,
       "83": 8000,
-      "84": 28000
+      "84": 28000,
+      "85": 30000
     },
-    "mean": 19648.14814814815,
+    "mean": 19836.363636363636,
     "median": 26000.0,
-    "variance": 89042866.94101508,
-    "standard_deviation": 9436.252801881426,
+    "variance": 89336859.50413223,
+    "standard_deviation": 9451.81778834803,
     "percentile_50": 26000.0,
-    "percentile_75": 27000.0,
-    "percentile_90": 28700.000000000004,
-    "percentile_95": 29000.0,
+    "percentile_75": 27500.0,
+    "percentile_90": 29000.0,
+    "percentile_95": 29299.999999999996,
     "percentile_99": 31000.0
   },
   "deploy-test-stack-read-schema-mgmt": {
@@ -403,12 +407,13 @@
       "79": 23000,
       "82": 25000,
       "83": 26000,
-      "84": 24000
+      "84": 24000,
+      "85": 25000
     },
-    "mean": 18444.444444444445,
+    "mean": 18563.636363636364,
     "median": 23000.0,
-    "variance": 71506172.83950621,
-    "standard_deviation": 8456.13226241798,
+    "variance": 70973223.14049588,
+    "standard_deviation": 8424.560709051593,
     "percentile_50": 23000.0,
     "percentile_75": 25000.0,
     "percentile_90": 26000.0,
@@ -530,17 +535,18 @@
       "79": 6000,
       "82": 7000,
       "83": 7000,
-      "84": 6000
+      "84": 6000,
+      "85": 7000
     },
-    "mean": 7509.433962264151,
+    "mean": 7500.0,
     "median": 7000.0,
-    "variance": 9797080.81167676,
-    "standard_deviation": 3130.0288835211663,
+    "variance": 9620370.370370371,
+    "standard_deviation": 3101.6721893795243,
     "percentile_50": 7000.0,
     "percentile_75": 8000.0,
     "percentile_90": 8000.0,
-    "percentile_95": 8399.999999999998,
-    "percentile_99": 19639.99999999994
+    "percentile_95": 8349.999999999995,
+    "percentile_99": 19459.999999999978
   },
   "deploy-test-stack-stream-batch.read": {
     "data": {
@@ -893,16 +899,17 @@
       "79": 39000,
       "82": 73000,
       "83": 61000,
-      "84": 74000
+      "84": 74000,
+      "85": 78000
     },
-    "mean": 60244.897959183676,
+    "mean": 60600.0,
     "median": 58000.0,
-    "variance": 216593086.21407738,
-    "standard_deviation": 14717.101827944161,
+    "variance": 218440000.0,
+    "standard_deviation": 14779.715829473853,
     "percentile_50": 58000.0,
-    "percentile_75": 74000.0,
-    "percentile_90": 79200.0,
+    "percentile_75": 75500.0,
+    "percentile_90": 79100.0,
     "percentile_95": 81000.0,
-    "percentile_99": 82520.0
+    "percentile_99": 82510.0
   }
 }
