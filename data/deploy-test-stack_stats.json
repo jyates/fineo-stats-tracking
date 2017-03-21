@@ -140,17 +140,18 @@
       "86": 31000,
       "87": 30000,
       "88": 33000,
-      "90": 29000
+      "90": 29000,
+      "92": 32000
     },
-    "mean": 41491.52542372881,
-    "median": 48000.0,
-    "variance": 113605860.38494682,
-    "standard_deviation": 10658.60499244375,
-    "percentile_50": 48000.0,
+    "mean": 41333.333333333336,
+    "median": 47500.0,
+    "variance": 113188888.88888884,
+    "standard_deviation": 10639.026688982824,
+    "percentile_50": 47500.0,
     "percentile_75": 51000.0,
     "percentile_90": 53000.0,
     "percentile_95": 54000.0,
-    "percentile_99": 54420.0
+    "percentile_99": 54410.0
   },
   "deploy-test-stack-read-schema": {
     "data": {
@@ -212,16 +213,17 @@
       "86": 27000,
       "87": 8000,
       "88": 28000,
-      "90": 25000
+      "90": 25000,
+      "92": 8000
     },
-    "mean": 19000.0,
+    "mean": 18816.666666666668,
     "median": 25000.0,
-    "variance": 79525423.72881356,
-    "standard_deviation": 8917.702828016505,
+    "variance": 80183055.55555555,
+    "standard_deviation": 8954.499179493823,
     "percentile_50": 25000.0,
     "percentile_75": 26000.0,
     "percentile_90": 27000.0,
-    "percentile_95": 28099.999999999993,
+    "percentile_95": 28049.999999999996,
     "percentile_99": 29000.0
   },
   "deploy-test-stack-read-schema_2": {
@@ -284,17 +286,18 @@
       "86": 32000,
       "87": 33000,
       "88": 36000,
-      "90": 12000
+      "90": 12000,
+      "92": 15000
     },
-    "mean": 25118.64406779661,
+    "mean": 24950.0,
     "median": 31000.0,
-    "variance": 94646940.53432919,
-    "standard_deviation": 9728.665917500159,
+    "variance": 94747500.0,
+    "standard_deviation": 9733.832749744573,
     "percentile_50": 31000.0,
     "percentile_75": 33000.0,
     "percentile_90": 34000.0,
     "percentile_95": 36000.0,
-    "percentile_99": 36420.0
+    "percentile_99": 36410.0
   },
   "deploy-test-stack-update-schema-field-alias": {
     "data": {
@@ -356,12 +359,13 @@
       "86": 27000,
       "87": 28000,
       "88": 30000,
-      "90": 8000
+      "90": 8000,
+      "92": 9000
     },
-    "mean": 20067.79661016949,
+    "mean": 19883.333333333332,
     "median": 26000.0,
-    "variance": 89351335.82303937,
-    "standard_deviation": 9452.583552819799,
+    "variance": 89869722.2222222,
+    "standard_deviation": 9479.964252159509,
     "percentile_50": 26000.0,
     "percentile_75": 28000.0,
     "percentile_90": 29000.0,
@@ -428,15 +432,16 @@
       "86": 25000,
       "87": 25000,
       "88": 27000,
-      "90": 23000
+      "90": 23000,
+      "92": 8000
     },
-    "mean": 19000.0,
-    "median": 24000.0,
-    "variance": 68915254.23728813,
-    "standard_deviation": 8301.521200195066,
-    "percentile_50": 24000.0,
+    "mean": 18816.666666666668,
+    "median": 23500.0,
+    "variance": 69749722.22222224,
+    "standard_deviation": 8351.629914107918,
+    "percentile_50": 23500.0,
     "percentile_75": 25000.0,
-    "percentile_90": 26200.000000000004,
+    "percentile_90": 26100.0,
     "percentile_95": 27000.0,
     "percentile_99": 28000.0
   },
@@ -561,17 +566,18 @@
       "86": 8000,
       "87": 7000,
       "88": 7000,
-      "90": 6000
+      "90": 6000,
+      "92": 8000
     },
-    "mean": 7465.517241379311,
+    "mean": 7474.576271186441,
     "median": 7000.0,
-    "variance": 9007431.629013076,
-    "standard_deviation": 3001.2383492507015,
+    "variance": 8859523.125538643,
+    "standard_deviation": 2976.495107595281,
     "percentile_50": 7000.0,
     "percentile_75": 8000.0,
     "percentile_90": 8000.0,
-    "percentile_95": 8149.999999999998,
-    "percentile_99": 18739.999999999993
+    "percentile_95": 8099.9999999999945,
+    "percentile_99": 18560.00000000003
   },
   "deploy-test-stack-stream-batch.read": {
     "data": {
@@ -934,16 +940,17 @@
       "86": 57000,
       "87": 38000,
       "88": 57000,
-      "90": 54000
+      "90": 54000,
+      "92": 40000
     },
-    "mean": 59925.92592592593,
+    "mean": 59563.63636363636,
     "median": 57000.0,
-    "variance": 212550068.58710563,
-    "standard_deviation": 14579.09697433643,
+    "variance": 215773223.1404958,
+    "standard_deviation": 14689.221325192693,
     "percentile_50": 57000.0,
     "percentile_75": 74000.0,
-    "percentile_90": 78700.0,
+    "percentile_90": 78600.0,
     "percentile_95": 81000.0,
-    "percentile_99": 82470.0
+    "percentile_99": 82460.0
   }
 }
