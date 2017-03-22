@@ -143,17 +143,18 @@
       "90": 29000,
       "92": 32000,
       "93": 49000,
-      "98": 49000
+      "98": 49000,
+      "99": 45000
     },
-    "mean": 42419.354838709674,
+    "mean": 42460.31746031746,
     "median": 48000.0,
-    "variance": 108598335.06763783,
-    "standard_deviation": 10421.052493277146,
+    "variance": 106978584.02620305,
+    "standard_deviation": 10343.045200819875,
     "percentile_50": 48000.0,
-    "percentile_75": 50750.0,
+    "percentile_75": 50500.0,
     "percentile_90": 53000.0,
-    "percentile_95": 53949.99999999999,
-    "percentile_99": 54390.0
+    "percentile_95": 53900.0,
+    "percentile_99": 54380.0
   },
   "deploy-test-stack-read-schema": {
     "data": {
